@@ -1,0 +1,35 @@
+# 忽略日志目录
+log/
+
+# 忽略数据集目录
+datasets/
+
+# 忽略数据集目录
+datasets/
+
+# 忽略 state_dict 目录
+state_dict
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+
+# 环境文件
+.env
+venv/
+
+# IDE配置文件
+.vscode/
+.idea/
+
+# 临时文件
+*.swp
+*.swo
+
+# 大型模型文件
+*.bin
+*.pth
+*.pt
+
+# 本地调试配置
+debug/
