@@ -5,6 +5,10 @@ import os
 import sys
 import logging
 
+import matplotlib.pyplot as plt
+import pickle
+
+
 from time import strftime, localtime
 from argument_utils import get_parameter
 from utils.config import model_classes, DATASET_FILES, input_colses, initializers, optimizers
@@ -12,10 +16,10 @@ from train import Instructor
 
 if __name__ == '__main__':
     
-    # 设置代理环境变量
+    '''# 设置代理环境变量
     proxy_address = 'http://172.16.61.163:808'  # 替换为你的代理地址和端口
     os.environ['HTTP_PROXY'] = proxy_address
-    os.environ['HTTPS_PROXY'] = proxy_address
+    os.environ['HTTPS_PROXY'] = proxy_address'''
 
     # initialize parameters
     args = get_parameter()
